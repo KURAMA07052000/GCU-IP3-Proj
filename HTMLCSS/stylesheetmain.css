@@ -1,9 +1,11 @@
-body{
-	background: #EAEEFF;
-	
-}
+body {
+	background: #eaafc8;
+	background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+	background: linear-gradient(to right, #eaafc8, #654ea3);
+	min-height: 100vh;
+  }
 
-header{
+  header{
 	background:  #000000
 }
 
@@ -50,7 +52,7 @@ nav li{
 
 
 nav ul > li  > a{
-	color: #989898;
+	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	
@@ -75,6 +77,20 @@ nav ul > li > a::before{
 nav ul > li > a:hover::before{
 	width: 100%;
 }
+
+
+.buttonstyle2{
+    font-size: 1.2em;
+	font-style:inherit;
+    padding:0.3em 1.2em;
+    border-radius:1.5em;
+    background-color: #8757EC;
+    color: white;
+    border: none;
+	box-shadow: 0px 0px 20px #00000010;
+    
+}
+
 
 button[type="submit"]:hover{
 	background-color: rgb(210, 151, 238);
