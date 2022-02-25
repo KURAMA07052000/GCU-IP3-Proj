@@ -8,7 +8,7 @@ body {
   header{
 	background:  #000000
 }
-
+/*
 header ::after{
 	content: '';
 	display:table;
@@ -77,8 +77,66 @@ nav ul > li > a::before{
 nav ul > li > a:hover::before{
 	width: 100%;
 }
+*/
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 100000;
 
+}
+/* not working 4 some reason
+header.sticky{
+	padding: 50px 100px;
+	background-color: #fff;
 
+}
+*/
+header .logo{
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+
+}
+
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	 
+}
+
+header ul li{
+	position: relative;
+	List-style: none;
+
+}
+
+header ul li a{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
 .buttonstyle2{
     font-size: 1.2em;
 	font-style:inherit;
