@@ -139,3 +139,12 @@ button[type="button"]:hover{
 .SignUpnLogin{
 	text-align: center;
 }
+
+.form-DOB{
+	
+	background-color: #8579D0;
+	border: #8579D0;
+	text-align: center;
+	color: #000000;
+	border-bottom: solid 4px;
+}
