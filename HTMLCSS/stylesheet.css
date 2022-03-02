@@ -148,3 +148,9 @@ button[type="button"]:hover{
 	color: #000000;
 	border-bottom: solid 4px;
 }
+
+.signupInstead{
+	position: relative;
+	float: right;
+	
+}
