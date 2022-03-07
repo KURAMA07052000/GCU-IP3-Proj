@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Landing Page */
+.banner{ 
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.slider {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+
+}
+
+#slideImg{
+	width: 100%;
+	height: 100%;
+}
+
+.overlay{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	position: absolute;
+	top: 0;
+}
+
+.lnavbar{
+	width: 85%;
+	display: flex;
+	align-items: center;
+	margin: 35px auto;
+}
+
+.logo{
+	flex-basis: 15%;
+}
+
+.logo img{
+	width: 120px;
+	cursor: pointer;
+}
+
+.menu-icons{
+	flex: 1;
+	align-items: center;
+	text-align: right;
+}
+
+.menu-icons img{
+	width: 20px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+.content{
+	width: 60%;
+	margin: 160px auto 0;
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+}
+.content h1{
+	font-size: 60px;
+}
+.content h3{
+	font-size: 100%;
+	margin: 20px auto 100px;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 0 10px;
+	border-radius: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: 2px solid #D297EE;
+	background: #D297EE;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.5s;
+}
+
+button:hover{
+	background: transparent;
+	border: 2px solid #fff;
+
+}
+
+.buttonText a{
+	color: #fff;
+	text-decoration: none;
+}
+/* End Landing page */
