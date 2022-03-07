@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GCU Social Platform</title>
+        <link rel="stylesheet" href="stylesheetlanding.css">
+    </head>
+    <body onload="slider()">
+        <div class="banner">
+            <div class="slider">
+                <img src="images/gcunight.jpg" id="slideImg">
+            </div>
+            <div class="overlay">
+                <div class="lnavbar">
+                    <img src="images/logo.png">
+                    <div class="menu-icons">
+                        <img src="images/user.png">
+                        <img src="images/cart.png">
+                        <img src="images/menu.png">
+                    </div>
+
+                </div>
+
+                <div class="content">
+                    <h1>WELCOME TO THE GCU SOCIAL PLATFORM</h1>
+                    <h3>Please login if you already have an account or register if you don't have one already</h3>
+                    <div>
+                      <button type="button" class="buttonText"><a href="Login.html"> LOGIN</a></button>
+                      <button type="button" class="buttonText"><a href="Login.html">REGISTER</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            var slideImg = document.getElementById("slideImg");
+
+            var images = new Array(
+                "images/img1.jpg",
+                "images/img2.jpg",
+                "images/img3.jpg",
+                "images/img4.jpg"
+            );
+
+        var len = images.length;
+        var i=0;
+
+        function slider (){
+            if (i> len-1){
+                i=0;
+            }
+            slideImg.src = images[i];
+            i++;
+            setTimeout('slider()',3000);
+        }
+
+        </script>
+
+        <div class="copyright">
+
+        </div>
+    </body>
+</html>
