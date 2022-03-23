@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang=eng>
+
+<head>
+    <title> Login </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+    <!--  <style>
+        body {
+            background-color: #EAEEFF;
+            no longer needed
+        }
+    </style>-->
+
+    <div class="row no-gutters">
+        <div class="col-md-6 no-gutters">
+            <div class="leftside">
+                <br>
+                <h2 class="titleintro">
+
+                    <img src="images/Welcome.png" alt="Wepage  screen welcome vector" class="Image1">
+                    <br>
+                    <br>
+
+                    <img src="images/cyborg-1231.png" alt="Wepage  screen welcome vector" class="Image1">
+                </h2>
+
+            </div>
+        </div>
+        <div class="col-md-6 no-gutters">
+            <div class="rightside">
+                <div style="position:relative; left: 50px; top:250px;">
+                    <div class="b3">
+                        <form action="" id="myForm">
+                            <div class="form-group">
+                                <label for="email"><b>Username/Email:</b></label>
+                                <input type="email" id="eMail" name="email"
+                                    placeholder="Enter email ending (@gcu.ac.uk)">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="password"><b>Password:</b></label>
+                                <input type="password" id="password" name="password" placeholder="Enter password">
+                            </div>
+                            <div class="signupInstead">
+                                <a href="SignUp.html" style="color: rgb(255, 255, 255);"><i><u>Don't have an account?</u></i></a>
+                            </div>
+                            <br><br>
+                            <div style="position: relative; left: 250px;">
+                                <button type="submit" class="buttonstyle1">Submit</button>
+                            </div>
+                         
+                        </form>
+                    </div>
+                    <script>
+                        var myForm = document.getElementById('myForm');
+
+                        myForm.addEventListener("submit", function (e) {
+
+                            e.preventDefault()
+
+
+                            var Email = document.getElementById('eMail').value = "Submitted Email";
+                            let Password = document.getElementById('password').value = "Susbmitted Password";
+
+
+                            console.log(Email)
+                            console.log(Password)
+
+                        })
+                    </script>
+
+
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
