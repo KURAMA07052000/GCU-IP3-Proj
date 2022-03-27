@@ -45,7 +45,9 @@ app.post('/register', async (req, res) => {
         paSsword = req.body.password;
         paSsword2 = req.body.password2;
 
-        console.log(paSsword, paSsword2, paSsword==paSsword2);
+        //testing
+        //console.log(paSsword, paSsword2, paSsword==paSsword2);
+
     if (paSsword==paSsword2){
 
     try{
@@ -67,7 +69,9 @@ app.post('/register', async (req, res) => {
        });
     }else{
         console.log('user already exists');
-        res.send("<div align ='center'><h2>User already exists</h2></div><br><br><div align='center'><a href='./SignUp.html'>SignUp</a></div><br><br><div align='center'><a href='./SignUp.html'>Register another user</a></div>");
+        app.get('/UserExists', function (req,res){
+            res.sendFile(path.join(__dirname, './public/UserExists.html'));
+         });
     }
     return res.redirect('/Home');
 
