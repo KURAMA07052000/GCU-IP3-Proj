@@ -42,9 +42,10 @@ app.post('/register', async (req, res) => {
         
         console.log({password: req.body.password})
         console.log({password2: req.body.password2})
-        paSsword = {password: req.body.password};
-        paSsword2 = {password2: req.body.password2};
+        paSsword = req.body.password;
+        paSsword2 = req.body.password2;
 
+        console.log(paSsword, paSsword2, paSsword==paSsword2);
     if (paSsword==paSsword2){
 
     try{
