@@ -104,6 +104,12 @@ header.sticky{
 
 }
 */
+.logo{
+	max-height: 80px;
+	max-width: 80px;
+	left: 5%;
+  }
+  
 header .logo{
 	position: relative;
 	font-weight: 700;

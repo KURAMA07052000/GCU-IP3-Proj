@@ -396,3 +396,9 @@ button[type="submit"]:hover{
 	 transition: .5s;
 	 cursor: pointer;
    } 
+
+   .logo{
+	max-height: 80px;
+	max-width: 80px;
+	left: 5%;
+  }

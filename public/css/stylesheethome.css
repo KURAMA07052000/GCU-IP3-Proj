@@ -7,6 +7,8 @@ header{
 	position: relative;
 	float: left;
 }
+
+
 /*
 header ::after{
 	content: '';
@@ -354,3 +356,8 @@ canvas {
     background-color: #8a59da
   }
 
+  .logo{
+	max-height: 80px;
+	max-width: 80px;
+	left: 5%;
+  }
