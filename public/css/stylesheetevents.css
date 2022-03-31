@@ -312,6 +312,28 @@ button[type="submit"]:hover{
 	border: #F3F3F3;
 }
 
+.file-upload-input{
+ font-size: 16px;
+ background-color: white;
+ border-radius: 50px;
+ width: 320px;
+ outline: none;
+}
+
+::-webkit-file-upload-button{
+ color: white;
+ background-color: #654ea3;
+ padding: 10px;
+ border: none;
+ border-radius: 50px;
+ box-shadow: 1px 0 1px 1px #6b4559;
+ outline: none;
+}
+
+.buttonstylepost{
+	position: relative;
+	left: 210px;
+}
 
 button[type="submit"]:hover{
 	background-color: rgb(210, 151, 238);
