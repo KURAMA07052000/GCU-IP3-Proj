@@ -38,6 +38,45 @@
     <br>
     <br>
     <br>
+    
+    <div class="postingSystem">
+        <form action="" id="myForm">
+            <div class="form-group">
+                <label for="eventTitle"><b>Event Title:</b></label>
+                <input type="text" id="eventTitle" name="eventTitle">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="description"><b>Description:</b></label>
+                <textarea name="description" id="description" cols="30" rows="5" placeholder="Enter event description here"></textarea>
+            </div>
+
+                <button type="submit" class="buttonstylepost">POST</button>
+     
+
+        </form>
+    </div>
+
+    <script>
+        
+        var myForm = document.getElementById('myForm');
+
+        myForm.addEventListener("submit", function (e) {
+
+            e.preventDefault()
+
+
+            var eventTitle = document.getElementById('eventTitle').value = "Submitted Title";
+            let Description = document.getElementById('description').value = "Susbmitted Description";
+
+
+            console.log(eventTitle)
+            console.log(Description)
+
+        })
+
+    </script>
+  
     <main>
         <!--cards -->
 
@@ -79,7 +118,8 @@
         <div class="card">
 
             <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
             </div>
             <div class="title">
                 <h1>
@@ -193,7 +233,7 @@
             </div>
         </div>
     </main>
-    
+
     <br>
     <br>
     <br>
